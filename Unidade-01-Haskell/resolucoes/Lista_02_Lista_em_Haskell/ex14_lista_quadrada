@@ -1,0 +1,12 @@
+--Gere, usando compreensão de listas:
+-- - uma lista com os quadrados dos números de 1 a 10.
+-- - uma lista com apenas os números pares de 1 a 20
+
+minhaListaQuadrada :: [Int]
+minhaListaQuadrada ( x ^ 2 | x <- [1..10]) 
+
+minhaListaPar :: [Int]
+minhaListaQuadrada (x | x <- [1..20], even x)
+
+
+
